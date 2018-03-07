@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <title>Flash Cards</title>
+</head>
+
+<body>
+  <h1 class="center-align">Flash Cards for JS!</h1>
+  </div>
+  <div class="row">
+    <div class="col s6 offset-s3">
+      <div class="card deep-orange">
+        <div class="card-content white-text">
+          <p><span class="card-title">What is JS?</span></p>
+          <a class="waves-effect waves-light btn" onclick="myFunction()">Answer</button></a>
+          <p id="demo"></p>
+          <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML =
+                "JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.";
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+  </script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script src="flashcards.js"></script>
+</body>
+
+</html>
